@@ -7,7 +7,7 @@ const GITHUB_IURL =
   "https://github.com/EBEN4REAL/cyfrin-full-stack-web3-app-Tsender";
 
 export const metadata: Metadata = {
-  title: "TSender",
+  title: "Air drop dist",
 };
 
 export default function RootLayout({
