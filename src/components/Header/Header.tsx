@@ -31,7 +31,7 @@ export const Header: React.FC<HeaderProps> = ({ githubUrl }) => {
           </a>
         </div>
       </div>
-      <h3 className="italic text-left hidden text-zinc-500 lg:block">The most gas efficient airdrop contract on earth, built in huff 🐎</h3>
+      <h3 className="italic text-left hidden text-zinc-500 lg:block">The most gas efficient airdrop contract on earth 🐎</h3>
       <div className="flex items-center gap-4">
         <ConnectButton />
       </div>

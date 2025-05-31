@@ -21,6 +21,7 @@ import { Tabs, TabsList, TabsTrigger } from "./Tabs";
 import { RiAlertFill, RiInformationLine } from "react-icons/ri";
 import { formatTokenAmount } from "@/utils/formatTokenAmount/formatTokenAmount";
 import { InputForm } from "./InputField";
+import Logo from "@/assets/img/airdrop.png";
 
 interface AirdropFormProps {
   isUnsafeMode: boolean;
@@ -189,7 +190,7 @@ export default function AirdropForm({ isUnsafeMode, onModeChange }: AirdropFormP
           className={`max-w-2xl min-w-full xl:min-w-lg w-full lg:mx-auto p-6 flex flex-col gap-6 bg-white rounded-xl ring-[4px] border-2 ${isUnsafeMode ? " border-red-500 ring-red-500/25" : " border-blue-500 ring-blue-500/25"}`}
       >
           <div className="flex items-center justify-between">
-              <h2 className="text-xl font-semibold text-zinc-900">T-Sender</h2>
+            <img width="36px" src={Logo.src} alt="App Logo" className="app-logo" />
               <Tabs defaultValue={"false"}>
                   <TabsList>
                       <TabsTrigger value={"false"} onClick={() => onModeChange(false)}>
