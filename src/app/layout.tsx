@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import {Providers} from "./providers";
 import { Header } from "@/components/Header/Header"
+import { ToastRootProvider } from "@/components/ui/ToastRoot";
 
 const GITHUB_IURL =
   "https://github.com/EBEN4REAL/cyfrin-full-stack-web3-app-Tsender";
@@ -18,10 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Providers>
-        <Header githubUrl={GITHUB_IURL} />
-          {children}
-        </Providers>
+        <ToastRootProvider>
+          <Providers>
+          <Header githubUrl={GITHUB_IURL} />
+            {children}
+          </Providers>
+        </ToastRootProvider>
       </body>
     </html>
   );
