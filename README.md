@@ -29,5 +29,5 @@ A modern, developer-friendly Web3 airdrop tool that enables project teams to sea
 
 ### 1. Clone the repo
 ```bash
-git clone [https://github.com/yourusername/web3-airdrop-tool.git](https://github.com/EBEN4REAL/airdrop-dist.git)
+git clone https://github.com/EBEN4REAL/airdrop-dist.git
 cd web3-airdrop-tool
