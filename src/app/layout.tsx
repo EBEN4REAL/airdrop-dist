@@ -5,7 +5,7 @@ import { Header } from "@/components/Header/Header"
 import { ToastRootProvider } from "@/components/ui/ToastRoot";
 
 const GITHUB_IURL =
-  "https://github.com/EBEN4REAL/cyfrin-full-stack-web3-app-Tsender";
+  "https://github.com/EBEN4REAL/airdrop-dist";
 
 export const metadata: Metadata = {
   title: "Airdrop dist",
